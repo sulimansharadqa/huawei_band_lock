@@ -693,6 +693,7 @@
         border-radius: 8px;
         padding: 12px;
         margin-bottom: 12px;
+        overflow-x: auto;
       }
       
       .section-title {
@@ -1174,5 +1175,6 @@
   // Start periodic updates
   currentBand();
   window.setInterval(currentBand, 2000);
+
 
 })();
